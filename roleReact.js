@@ -81,3 +81,8 @@ bot.on('raw', (event) => {
     }
 
 });
+
+bot.on('error', (error) => {});
+bot.on('reconnecting', () => {});
+bot.on('warn', (info) => {});
+bot.on('debug', (info) => {});
