@@ -6,6 +6,7 @@ const { bot, roles, reactions } = require('./roles'),
     setupCMD = 'vnp!role';
 let initialMessage = '**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**\n**役職を貰うためには当てはまるものにリアクションを付けて下さい。役職を外す場合はリアクションを外せば外れます。**';
 bot.login(process.env.TOKEN);
+require('http').createServer().listen(1919);
 
 if (roles.length !== reactions.length) console.log('Roles list and reactions list are not the same length!');
 
