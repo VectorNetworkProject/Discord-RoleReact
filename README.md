@@ -16,7 +16,7 @@ Clone this repository to your local machine.
 
 Install the latest version of the `discord.js` module. Uninstall any previous versions (`npm uninstall discord.js`), and then run `npm install discord.js --save`.
 
-Open `roleReact.js`, you will need to change most of the settings at the top of the file. The relevant lines look like this: 
+Open `roleReact.js`, you will need to change most of the settings at the top of the file. The relevant lines look like this:
 
 ```JavaScript
 //Settings!
@@ -43,6 +43,9 @@ For the bot to work properly, you must:
 
 - Set up the bot and get the token. This [Github Wiki Page](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token) does a better job of expaining it than I ever could. An image of the permissions the bot needs can be [found here](https://i.imgur.com/PFDm3pH.png).
 
-## Conclusion 
+## Conclusion
 
 I hope you find this bot useful. If you need any help, or find any bugs, use the appropriate forums in this repository to contact me.
+
+## コードスタイル
+<https://github.com/NULLCodeJP/eslint-config-null>
